@@ -8,6 +8,8 @@ aren't you. Just try and work it all out yourself before looking at this code, y
 
 This project uses AngularJS, using ReactJS or any other client framework should be very similar.
 
+If you're looking for an equivalent ReactJS version, check out [spa-spring-react](https://github.com/caprica/spa-spring-react).
+
 Anyway, here it is, a skeleton project for a single page web application using SpringMVC for the middle tier.
 
 Key features:
