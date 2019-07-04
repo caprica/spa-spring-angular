@@ -28,6 +28,9 @@ The names for the path prefixes used are arbitrary and can be changed to whateve
 
 There is no cache control for the static resources, you might like to consider that.
 
+*Note that this version does not yet have full feature parity (missing some demo pages) as the ReactJS
+equivalent, this will be added soon... Nevertheless, everything works as it should.*
+
 You can run this project from a shell/terminal, simply type:
 
 ```
