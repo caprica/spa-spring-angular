@@ -118,7 +118,7 @@ You also need to tweak the scripts section in package.json to specify the proxy 
   },
 ```
 
-And then as usual to run the development version of the application (use port 4200 rather than 8080):
+And then as usual to run the development version of the application (use port 4200 by default rather than 8080):
 
 ```
 cd src/main/app
