@@ -10,6 +10,8 @@ This project uses AngularJS, using ReactJS or any other client framework should 
 
 If you're looking for an equivalent ReactJS version, check out [spa-spring-react](https://github.com/caprica/spa-spring-react).
 
+If you're looking for an equivalent VueJS version, check out [spa-spring-vue](https://github.com/caprica/spa-spring-vue).
+
 Anyway, here it is, a skeleton project for a single page web application using SpringMVC for the middle tier.
 
 Key features:
