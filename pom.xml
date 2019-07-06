@@ -88,7 +88,7 @@
                 <version>3.2.3</version>
                 <configuration>
                     <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <warName>spa-spring-react</warName>
+                    <warName>spa-spring-angular</warName>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
@@ -140,7 +140,7 @@
                 <version>3.1.0</version>
                 <executions>
                     <execution>
-                        <id>position-react-build</id>
+                        <id>position-angular-build</id>
                         <goals>
                             <goal>copy-resources</goal>
                         </goals>
