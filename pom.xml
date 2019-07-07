@@ -135,6 +135,31 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--
+                This resources plugin is a very important step, its job is to take the client application artifacts
+                built by the frontend plugin and copy them to the "right place".
+
+                The "right place" to copy the artifacts to, and where to copy them from, can change depending on which
+                client framework is being used.
+
+                For all client frameworks:
+
+                    - client application root is "src/main/app"
+                    - install directory is the Maven ${project.build.directory} which will translate to "target/classes"
+
+                Note that "app" is an arbitrary choice, it could be something else if you wanted - so long as you change
+                it everywhere.
+
+                For AngularJS:
+
+                    - react-scripts build default output directory is "<app-root>/dist", so "src/main/app/dist"
+                    - directory to copy the built application to is "target/classes"
+                    - the "dist" folder itself contains an "app" sub-directory, giving effectively "target/classes/app"
+                    - the Java router code uses this "app" directory on the classpath
+
+                We could instead have copied from "src/main/app/dist/app" to "target/classes/app" to match with the
+                ReactJS project, it doesn't really matter as the net effect is the same.
+            -->
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.1.0</version>
